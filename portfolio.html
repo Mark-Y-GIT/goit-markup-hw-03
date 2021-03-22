@@ -20,45 +20,57 @@
   <body>
     <!-- шапка сайта -->
 
-    <header>
-      <nav>
-        <a class="link logo" href="./index.html"
-          ><span class="color-logo">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li>
-            <a class="link navigation" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a class="link navigation current" href="./portfolio.html"
-              >Портфолио</a
-            >
-          </li>
-          <li><a class="link navigation" href="">Контакты </a></li>
-        </ul>
-      </nav>
-      <a class="link contacts" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="link contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+    <header class="page-header">
+      <div class="container">
+        <nav class="main-nav">
+          <a class="link logo" href="./index.html"
+            ><span class="color-logo">Web</span>Studio</a
+          >
+          <ul class="list menu">
+            <li class="menu-item">
+              <a class="link navigation" href="./index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="link navigation current" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="link navigation" href="">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="contacts-list">
+          <a class="link contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="link contacts" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </div>
+      </div>
     </header>
     <main>
       <!--фильтр-->
       <section>
-        <h1 class="visually-hidden">Портфолио</h1>
-        <ul class="list">
-          <li><button class="button pointer" type="button">Все</button></li>
-          <li>
-            <button class="button pointer" type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="button pointer" type="button">Приложения</button>
-          </li>
-          <li><button class="button pointer" type="button">Дизайн</button></li>
-          <li>
-            <button class="button pointer" type="button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="list">
+            <li><button class="button pointer" type="button">Все</button></li>
+            <li>
+              <button class="button pointer" type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="button pointer" type="button">Приложения</button>
+            </li>
+            <li>
+              <button class="button pointer" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="button pointer" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
 
         <!--карточки-->
 
