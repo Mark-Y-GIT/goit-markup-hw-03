@@ -28,7 +28,7 @@ p {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -186,10 +186,7 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--title-color);
   background-color: #f5f4fa;
-  min-width: 73px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+
   background: #f5f4fa;
   border-radius: 4px;
   padding-top: 6px;
@@ -198,17 +195,17 @@ header .logo {
   padding-right: 22px;
 }
 
-.filter-button .filter-item:not(:last-child) {
-  margin-right: 8px;
-}
-
 .filter {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.filter-container {
-  padding-top: 94px;
-  padding-bottom: 50px;
+.filter-button {
+  margin-bottom: 50px;
+}
+
+.filter-button .filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button:hover,
